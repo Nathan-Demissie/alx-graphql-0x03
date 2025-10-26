@@ -1,0 +1,25 @@
+{
+  "name": "alx-rick-and-morty-app",
+  "version": "1.0.0",
+  "description": "A Next.js app for Rick and Morty characters with error handling",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^13.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@sentry/react": "^7.50.0",
+    "@sentry/nextjs": "^7.50.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.0",
+    "@types/react": "^18.0.28",
+    "@types/node": "^20.4.2",
+    "eslint": "^8.45.0",
+    "eslint-config-next": "^13.4.0"
+  }
+}
